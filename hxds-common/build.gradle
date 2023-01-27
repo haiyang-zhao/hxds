@@ -1,0 +1,18 @@
+dependencies {
+
+    //辅助工具类
+    api('cn.hutool:hutool-all:5.8.11')
+
+    //腾讯云存储
+    api('com.qcloud:cos_api:5.6.45')
+    api('commons-fileupload:commons-fileupload:1.2.2')
+
+    //腾讯云
+    api('com.tencentcloudapi:tencentcloud-sdk-java:3.1.416')
+
+    //分布式事务
+//    api('com.codingapi.txlcn:txlcn-tm:5.0.2.RELEASE')
+//    api 'com.codingapi.txlcn:txlcn-tc:5.0.2.RELEASE'
+//    api 'com.codingapi.txlcn:txlcn-txmsg-netty:5.0.2.RELEASE'
+}
+

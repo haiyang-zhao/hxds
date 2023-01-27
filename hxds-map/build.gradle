@@ -1,0 +1,33 @@
+dependencies {
+
+    implementation(project(":hxds-common"))
+    //数据源
+    implementation 'com.alibaba:druid:1.2.10'
+    //mysql连接
+    runtimeOnly 'mysql:mysql-connector-java'
+    //mybatis
+    api('org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2')
+
+    //spring cloud alibaba
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config'
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery'
+
+    //mybatis
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    //doc
+    implementation 'org.springdoc:springdoc-openapi-spring-boot-2-webmvc:3.1.5'
+
+    //redis
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
+    //validation
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    //GEO
+    implementation 'org.gavaghan:geodesy:1.1.3'
+
+    //分布式事务
+    implementation 'com.codingapi.txlcn:txlcn-tc:5.0.2.RELEASE'
+    implementation 'com.codingapi.txlcn:txlcn-txmsg-netty:5.0.2.RELEASE'
+
+}
+

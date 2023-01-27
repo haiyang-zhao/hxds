@@ -1,0 +1,26 @@
+dependencies {
+
+    implementation(project(":hxds-common"))
+
+
+    //validation
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+    //spring cloud alibaba
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config'
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery'
+
+    //openfeign
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    //doc
+    implementation 'org.springdoc:springdoc-openapi-spring-boot-2-webmvc:3.1.5'
+
+    //amqp
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    //mongodb
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+    //rabbitmq
+    implementation 'com.rabbitmq:amqp-client:5.9.0'
+
+
+}

@@ -1,0 +1,30 @@
+server:
+  port: 7970
+
+spring:
+  application:
+    name: TransactionManager
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:12005/tx-manager?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: abc123456
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+
+  redis:
+    host: localhost
+    port: 6379
+    password: abc123456
+    database: 10
+tx-lcn:
+  manager:
+    admin-key: abc123456
+    host: 127.0.0.1
+    port: 8970
+
+
+#  mybatis.configuration.map-underscore-to-camel-case=true
+#  mybatis.configuration.use-generated-keys=true

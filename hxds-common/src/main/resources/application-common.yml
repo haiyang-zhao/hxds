@@ -1,0 +1,25 @@
+spring:
+  profiles: common
+
+
+tencent:
+  cloud:
+    appId: 腾讯云APPID
+    secretId: 腾讯云SecretId
+    secretKey: 腾讯云SecretKey
+    region-public: 公有存储桶所在地域
+    bucket-public: 公有存储桶名称
+    region-private: 私有存储桶所在地域
+    bucket-private: 私有存储桶名称
+
+wx:
+  app-id: wx380b3cb1ddd10fb3
+  app-secret: 9f097f6420485cfaaa6fbfe4e45842bf
+  mch-id: 商户号ID（课程QQ群共享里能找到）
+  key: 商户密钥（课程QQ群共享里能找到）
+  cert-path: /Users/mactty/workspace/learning/hxds/mockWechat.cert
+
+minio:
+  endpoint: http://localhost:9000
+  access-key: root
+  secret-key: abc123456

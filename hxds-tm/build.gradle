@@ -1,0 +1,6 @@
+dependencies {
+
+    //分布式事务
+    api('com.codingapi.txlcn:txlcn-tm:5.0.2.RELEASE')
+
+}

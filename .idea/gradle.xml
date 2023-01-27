@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/bff-customer" />
+            <option value="$PROJECT_DIR$/bff-driver" />
+            <option value="$PROJECT_DIR$/hxds-common" />
+            <option value="$PROJECT_DIR$/hxds-cst" />
+            <option value="$PROJECT_DIR$/hxds-dr" />
+            <option value="$PROJECT_DIR$/hxds-gateway" />
+            <option value="$PROJECT_DIR$/hxds-map" />
+            <option value="$PROJECT_DIR$/hxds-mis-api" />
+            <option value="$PROJECT_DIR$/hxds-nebula" />
+            <option value="$PROJECT_DIR$/hxds-oes" />
+            <option value="$PROJECT_DIR$/hxds-order" />
+            <option value="$PROJECT_DIR$/hxds-snm" />
+            <option value="$PROJECT_DIR$/hxds-tm" />
+            <option value="$PROJECT_DIR$/hxds-vhr" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

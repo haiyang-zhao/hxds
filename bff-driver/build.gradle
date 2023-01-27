@@ -1,0 +1,43 @@
+dependencies {
+
+    implementation(project(":hxds-common"))
+    //数据源
+    implementation 'com.alibaba:druid:1.2.10'
+    implementation 'com.alibaba:druid-spring-boot-starter:1.2.11'
+    //mysql连接
+    runtimeOnly 'mysql:mysql-connector-java'
+    //mybatis
+    api('org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2')
+
+    //validation
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    //spring cloud alibaba
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config'
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery'
+
+    //mybatis
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    //doc
+    implementation 'org.springdoc:springdoc-openapi-spring-boot-2-webmvc:3.1.5'
+    //Feign进行跨服务传递文件依赖
+    implementation 'io.github.openfeign.form:feign-form-spring:3.8.0'
+    implementation 'io.github.openfeign.form:feign-form:3.8.0'
+
+    //redis
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    //Sa-Token核心库
+    implementation 'cn.dev33:sa-token-spring-boot-starter:1.28.0'
+    //用Redis缓存授权信息
+    implementation 'cn.dev33:sa-token-dao-redis:1.28.0'
+    //注解式权限验证
+    implementation 'cn.dev33:sa-token-spring-aop:1.28.0'
+    //validation
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+    //分布式事务
+    implementation 'com.codingapi.txlcn:txlcn-tc:5.0.2.RELEASE'
+    implementation 'com.codingapi.txlcn:txlcn-txmsg-netty:5.0.2.RELEASE'
+
+
+}
+
